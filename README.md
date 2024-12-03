@@ -14,4 +14,6 @@ the functionality we did not have time for due to team disorganization and lack 
 is the ability to write back to the app and have the data saved in the files.
 
 How to Run:
-to clone this project
+to clone this project simply take both the "app" and "graddle scripts" folders and move them into a andrio studio project.
+an apk file has also been provided for those with a functional emulator, however the apk is unsigned so certain emulators that rely on signatures will not function.
+The emulator built into andriod studio functions perfectly
