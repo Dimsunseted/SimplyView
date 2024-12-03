@@ -1,0 +1,3 @@
+Project Proposal,Sep. 20th,The purpose of this proposal is to initiative conversations between team members on the design and operation of the team project.  No code is required at this point - this is only a design of the software you intend to create.,true
+Project Demo,Dec 2nd,A short 3 minute video demonstrating the functionality of your app,false
+Project Code,Dec 2nd,The final code for your teams application,false
