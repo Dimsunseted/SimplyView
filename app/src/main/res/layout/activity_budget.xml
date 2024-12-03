@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/total"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6B0DC">
+
+    <Button
+        android:id="@+id/backButtonbgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="407dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="4dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/totalCost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/budgetItem5" />
+
+    <TextView
+        android:id="@+id/budgetItem5"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintEnd_toStartOf="@+id/cost1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cost5"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/budgetItem1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/budgetItem4"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintEnd_toStartOf="@+id/cost1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cost4"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/budgetItem1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/budgetItem3"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintEnd_toStartOf="@+id/cost1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cost3"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/budgetItem1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/budgetItem2"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintEnd_toStartOf="@+id/cost1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cost2"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/budgetItem1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/budgetItem1"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintEnd_toStartOf="@+id/cost1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cost1"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/budgetItem1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/totalCost"
+        android:layout_width="103dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="269dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cost5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

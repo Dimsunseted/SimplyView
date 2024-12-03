@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6B0DC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Which project will you be working on today?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/obj0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FF0000"
+        android:fontFamily="serif"
+        android:text="Empty Project 1"
+        app:layout_constraintBottom_toTopOf="@+id/obj1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/obj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#CDDC39"
+        android:fontFamily="serif"
+        android:text="Empty Project 2"
+        app:layout_constraintBottom_toTopOf="@+id/obj2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obj0"
+        app:strokeColor="#FAFAFA" />
+
+    <Button
+        android:id="@+id/obj2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="serif"
+        android:text="Empty Project 3"
+        app:layout_constraintBottom_toTopOf="@+id/obj3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obj1" />
+
+    <Button
+        android:id="@+id/obj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="233dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="serif"
+        android:text="Empty Project 4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obj2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="319dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/obj0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ribbon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

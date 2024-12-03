@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Category -->
+    <TextView
+        android:id="@+id/budget_item_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="4dp" />
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/budget_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textSize="14sp"
+        android:padding="4dp" />
+
+    <!-- Cost -->
+    <TextView
+        android:id="@+id/budget_item_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$0.00"
+        android:textSize="14sp"
+        android:padding="4dp" />
+
+    <!-- Extra Fields -->
+    <TextView
+        android:id="@+id/budget_item_extras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extras"
+        android:textSize="12sp"
+        android:padding="4dp" />
+</LinearLayout>
